@@ -1,0 +1,3 @@
+import streamlit as st
+st.subheader('Spine project')
+st.image('Images/spine.png')
