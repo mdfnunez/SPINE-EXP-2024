@@ -1,5 +1,4 @@
 from ximea import xiapi
-import streamlit as st
 
 #create instance for first connected camera
 cam = xiapi.Camera()
@@ -8,7 +7,6 @@ cam = xiapi.Camera()
 #to open specific device, use:deacti
 #cam.open_device_by_SN('41305651')
 #(open by serial number)
-st.write('Opening first camera...')
 cam.open_device()
 
 #settings
