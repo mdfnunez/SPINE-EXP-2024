@@ -4,9 +4,10 @@ from ximea import xiapi
 cam = xiapi.Camera()
 
 #start communication
-#to open specific device, use:deacti
+#to open specific device, use:
 #cam.open_device_by_SN('41305651')
 #(open by serial number)
+print('Opening first camera...')
 cam.open_device()
 
 #settings
