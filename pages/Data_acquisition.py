@@ -137,7 +137,7 @@ with t1:
             append_data(st.session_state.table_name)
 
             # Captura de imagen de la cámara
-            cap = cv2.VideoCapture(1)
+            cap = cv2.VideoCapture('192.168.4.1')
             ret, frame = cap.read()
             if ret:
                 image_filename = os.path.join(folder, f'image_{timestamp_str}.jpg')
